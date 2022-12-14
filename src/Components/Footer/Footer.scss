@@ -1,0 +1,60 @@
+.conteinerFooter {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+
+  //all Article
+  article {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  //article 1
+  article:nth-child(1) > div:nth-child(1) {
+    width: 32vw;
+    padding-right: 7.5vw;
+  }
+
+  //article 2
+  article:nth-child(2) {
+    justify-content: flex-start;
+  }
+
+  article:nth-child(2) > div:nth-child(1) {
+    width: 22vw;
+  }
+
+  //article 3
+  article:nth-child(3) {
+    width: 15vw;
+    margin-right: 4vw;
+  }
+  //article4
+  article:nth-child(4) {
+    width: 20vw;
+    padding-left: 3.5vw;
+  }
+
+  h4 {
+    color: #323a45;
+    font-size: 1.2vw;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1vw;
+    margin: 0;
+  }
+
+  i {
+    width: 10%;
+    font-size: 1.5vw;
+  }
+
+  a {
+    text-decoration: none;
+    color: #323a45;
+  }
+}
